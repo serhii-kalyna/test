@@ -1,0 +1,50 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#pass-form{
+	width: 250px;
+	height: auto;
+	border: 1px solid black;
+	margin: 100px auto;
+}
+
+#pass-form p#msgerror {
+	font: 14px sans-serif;
+	border: 1px solid red;
+	background-color: #eee; 
+}
+
+#pass-form>p{
+	text-align: center;
+}
+
+input{
+	display: block;
+	margin: 10px auto;
+	width: 200px;
+	font: 16px Arial;
+	padding: 5px;
+	color: black;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+input#send_pass{
+	background-color: #333;
+	border-color: #777;
+	color: white;
+}
+
+input#send_pass:hover{
+	border-color: #fff;
+}
+
+#block-info{
+	height: auto;
+	width: 600px;
+	border: 1px solid black;
+	margin: 20px auto;
+	padding: 40px;
+}
